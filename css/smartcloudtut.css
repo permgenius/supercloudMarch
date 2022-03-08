@@ -1,0 +1,340 @@
+/* CSS Document */
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+
+body {
+	font-family: futura-pt, Helvetica, sans-serif;
+	background-color:#449BBA
+}
+
+
+.bg-smartnav {
+	background-color: #03547E;
+}
+
+.smartcloudlogo {
+    width: 350px;
+	padding-top: 20px;
+	
+}
+
+
+/*Font Attributes*/
+h1{
+			font-family: ff-prater-block-web, sans-serif;
+			font-style: normal;
+			font-weight: 400;
+			margin: 0px;
+		}
+
+h2 {
+	font-family: eurostile-condensed, sans-serif;
+	font-color: white;
+	font-weight: 800;
+	font-style: normal;
+	
+}
+
+h3, h4, h5, h6 {
+	font-family: roboto, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+ 
+
+p {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.lead {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+
+		
+.strapline {
+			font-size: 2.5rem;
+			background-color: #F5E135;
+			padding: 3px 15px 5px 15px;
+		}
+.strapline-white {
+			background-color: #FFFFFF;	
+		}
+
+
+.mini-title {
+	margin-top: 15px;
+	padding: 2px 15px 5px 15px;
+	display: inline-block;	
+}
+
+.maintitles{
+    background-color: white;
+    margin-top: 20px;
+    padding: 5px 35px 5px 35px;
+    display: inline-block;	
+}
+
+.titles-center {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+}
+
+.student-caption {
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.75rem;
+	text-align: center;
+	color: white;
+	background-color:#5A8700;	
+}
+
+
+.leaderboard {
+	background-color: #154466;
+}
+
+
+/*Container Attributes*/
+#landing
+ {background-color:#177EA3;	 
+}
+
+
+.lead-panel {
+	background: rgb(6,137,184);
+background: -moz-linear-gradient(180deg, rgba(6,137,184,1) 0%, rgba(68,155,186,1) 95%);
+background: -webkit-linear-gradient(180deg, rgba(6,137,184,1) 0%, rgba(68,155,186,1) 95%);
+background: linear-gradient(180deg, rgba(6,137,184,1) 0%, rgba(68,155,186,1) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0689b8",endColorstr="#449bba",GradientType=1);	
+}	
+
+.clouds-international {	
+	background-color: #0F5C78;
+}
+
+.sticker {
+
+}
+
+	
+/*About us ID*/
+#about-us {
+	background-color: #FDD700;	
+}
+
+
+#about-us h2 {
+	background-color: #FFFFFF;	
+}
+
+
+/*Our Tutors ID*/
+
+#our-tutors {
+    background-color: #A30000;	
+}
+
+#our-tutors h2 {
+	background-color: #457803;	
+}
+
+/*Remote Learning ID*/
+
+#remote-learning {
+   background-color: #67B400;	
+}
+
+#remote-learning h2{
+	background-color: #400015;
+}
+
+
+/*Our Rates ID*/
+
+#our-rates {
+	background-color: #15005A;
+	
+}
+
+#our-rates h2 {
+	background-color: #B97E00;
+}
+
+/*Testimonials ID*/
+#testimonials {
+	background-color:#4D1C98;
+}
+
+.testimonial-background{
+	background-color: #7111F3;
+}
+
+.blockquote {
+	color: white;
+}
+
+/*FAQ ID*/
+
+#faq {
+	background-color: #890075;
+}
+
+
+
+#faq .card-header {
+	background-color: #A200AF;
+	border:none;
+}
+#faq .card-body {
+	background-color:#C328D0;
+	color: #fff;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	border:none;
+}
+
+
+
+/*Contact ID*/
+#contact-us {
+	background-color: #00526F;
+}
+
+
+/*UK variant*/
+
+.bg-smartnav-uk {
+	background-color: #2E9500;
+}
+
+#sitevariations-uk {
+	height: 50px;
+	background-color: #184A01;
+}
+
+/*Landing UK*/
+#landing-UK
+ {background-color:#9AC12D;	 
+}
+
+.clouds-uk {
+	background-color: #006904;
+}
+
+/*About us-UK ID*/
+#about-us-uk {
+	background-color: #D5B025;	
+}
+
+
+#about-us-uk h2 {
+	background-color: #FFFFFF;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+
+
+
+
+@media (max-width:575px){
+
+	.strapline {
+		font-size:2rem;
+		text-align: center;
+		padding: 2px 50px 4px 50px;
+		}
+	.smartcloudlogo{
+		width:90%;
+	
+		}
+	}
+
+@media (min-width:576px){
+	.smartcloudlogo{
+		width:100%;
+	}
+
+	.students {
+	width: 100%	
+}
+	.strapline {
+			font-size: 2.5rem;
+		}
+	
+}
+
+@media (min-width:768px){
+
+
+	.strapline {
+			font-size: 2.5rem;
+		}
+
+}
+@media (min-width:992px){
+
+	
+
+	.strapline {
+			font-size: 2.5rem;
+		}
+	
+}
+
+@media (min-width:1200px){
+
+	.strapline {
+			font-size: 3rem;
+		}
+		
+}
+/*@media (min-width:1400px){
+	.smartcloudlogo {
+    width: 450px;
+}	
+}*/
+
+
+
+
+
